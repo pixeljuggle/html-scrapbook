@@ -3,10 +3,230 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <title>HTML Scrapbook</title>
   </head>
   <body>
+    <div>
+      <h1 class="header">&#128214; HTML Scrapbook</h1>
+      <p>
+        A collection of <code>&#60; html elements &#62;</code> with examples and
+        descriptions from
+        <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element"
+          >MDN Web Docs</a
+        >
+        and
+        <a href="https://www.w3schools.com/html/html_blocks.asp">W3 Schools</a>
+      </p>
+      <h1>Block Elements</h1>
+      <div class="cards">
+        <!-- start of element container -->
+        <div class="card shadow">
+          <h2 class="flex-text"><code>&#60;address&#62;</code></h2>
+          <p class="flex-text">
+            The <code>&#60;address&#62;</code> element indicates that the
+            enclosed HTML provides contact information for a person or people,
+            or for an organization.
+          </p>
+          <div class="flex-container">
+            <div class="code-container cont-pad shadow">
+              <p class="badge">html code</p>
+              <code>
+                &#60;address&#62;<br />
+                Jerry Smith&#60;br&#62;<br />
+                Washington,&#60;br&#62;<br />
+                USA,&#60;br&#62;<br />
+                Earth<br />
+                &#60;/address&#62;</code
+              >
+            </div>
+            <div class="example-container cont-pad shadow">
+              <p class="badge">browser example</p>
+              <address>
+                Jerry Smith<br />
+                Washington,<br />
+                USA,<br />
+                Earth
+              </address>
+            </div>
+          </div>
+        </div>
+        <!-- end of element container -->
+        <!-- start of element container -->
+        <div class="card shadow">
+          <h2 class="flex-text"><code>&#60;article&#62;</code></h2>
+          <p class="flex-text">
+            The <code>&#60;article&#62;</code> element represents a
+            self-contained composition in a document, page, application, or
+            site, which is intended to be independently distributable or
+            reusable (e.g., in syndication).
+          </p>
+          <div class="flex-container">
+            <div class="code-container cont-pad shadow">
+              <p class="badge">html code</p>
+              <code>
+                &#60;article&#62;<br />
+                &#60;h2&#62;Jerry Smith&#60;/h2&#62;<br />
+                &#60;p&#62;Jerry is the husband of Beth Smith, the father of
+                Summer Smith and Morty Smith, and the son-in-law of Rick Sanchez
+                and Diane Sanchez&#60;/p&#62;<br />&#60;/article&#62;</code
+              >
+            </div>
+            <div class="example-container cont-pad shadow">
+              <p class="badge">browser example</p>
+              <article>
+                <h2>Jerry Smith</h2>
+                <p>
+                  Jerry is the husband of Beth Smith, the father of Summer Smith
+                  and Morty Smith, and the son-in-law of Rick Sanchez and Diane
+                  Sanchez
+                </p>
+              </article>
+            </div>
+          </div>
+        </div>
+        <!-- end of element container -->
+        <!-- start of element container -->
+        <div class="card shadow">
+          <h2 class="flex-text"><code>&#60;aside&#62;</code></h2>
+          <p class="flex-text">
+            The <code>&#60;aside&#62;</code> element represents a portion of a
+            document whose content is only indirectly related to the document's
+            main content.
+          </p>
+          <div class="flex-container">
+            <div class="code-container cont-pad shadow">
+              <p class="badge">html code</p>
+              <code>
+                &#60;aside&#62; <br />&#60;h3&#62;Gas Giant&#60;/h3&#62;<br />
+                &#60;p&#62;Jupiter is twice as large as all the other planets
+                combined.&#60;/p&#62;<br />&#60;/aside&#62;</code
+              >
+            </div>
+            <div class="example-container cont-pad shadow">
+              <p class="badge">browser example</p>
+              <aside>
+                <h3>Gas Giant</h3>
+                <p>
+                  Jupiter is twice as large as all the other planets combined.
+                </p>
+              </aside>
+            </div>
+          </div>
+        </div>
+        <!-- end of element container -->
+        <!-- start of element container -->
+        <div class="card shadow">
+          <h2 class="flex-text"><code>&#60;blockquote&#62;</code></h2>
+          <p class="flex-text">
+            The <code>&#60;blockquote&#62;</code> element indicates that the
+            enclosed text is an extended quotation. Usually, this is rendered
+            visually by indentation . A URL for the source of the quotation may
+            be given using the cite attribute, while a text representation of
+            the source can be given using the cite element.
+          </p>
+          <div class="flex-container">
+            <div class="code-container cont-pad shadow">
+              <p class="badge">html code</p>
+              <code>
+                &#60;blockquote
+                cite="https://rickandmorty.fandom.com/wiki/Jerry_Smith"&#62;<br />
+                Jerry has scruffy, dirty brown hair, with slight curls. He has
+                dimples and wears a dark green shirt, with a brown and beige
+                stripe in the middle. He also wears light blue long pants and
+                black shoes.<br />
+                &#60;/blockquote&#62;</code
+              >
+            </div>
+            <div class="example-container cont-pad shadow">
+              <p class="badge">browser example</p>
+              <blockquote
+                cite="https://rickandmorty.fandom.com/wiki/Jerry_Smith"
+              >
+                Jerry has scruffy, dirty brown hair, with slight curls. He has
+                dimples and wears a dark green shirt, with a brown and beige
+                stripe in the middle. He also wears light blue long pants and
+                black shoes.
+              </blockquote>
+            </div>
+          </div>
+        </div>
+        <!-- end of element container -->
+        <!-- start of element container -->
+        <div class="card shadow">
+          <h2 class="flex-text"><code>&#60;form&#62;</code></h2>
+          <p class="flex-text">
+            The <code>&#60;form&#62;</code> tag is used to create an HTML form
+            for user input.
+          </p>
+          <div class="flex-container">
+            <div class="code-container cont-pad shadow">
+              <p class="badge">html code</p>
+              <code>
+                &#60;form action="#" method="get"&#62;<br />
+                &#60;label for="fname"&#62;First name:&#60;/label&#62;<br />
+                &#60;input type="text" id="fname"
+                name="fname"&#62;&#60;br&#62;&#60;br&#62;<br />
+                &#60;label for="lname"&#62;Last name:&#60;/label&#62;<br />
+                &#60;input type="text" id="lname"
+                name="lname"&#62;&#60;br&#62;&#60;br&#62;<br />
+                &#60;input type="submit" value="Submit"&#62;<br />
+                &#60;/form&#62;</code
+              >
+            </div>
+            <div class="example-container cont-pad shadow">
+              <p class="badge">browser example</p>
+              <form action="#" method="get">
+                <label for="fname">First name:</label>
+                <input type="text" id="fname" name="fname" /><br /><br />
+                <label for="lname">Last name:</label>
+                <input type="text" id="lname" name="lname" /><br /><br />
+                <input type="submit" value="Submit" />
+              </form>
+            </div>
+          </div>
+        </div>
+        <!-- end of element container -->
+        <!-- start of element container -->
+        <div class="card shadow">
+          <h2 class="flex-text"><code>&#60;h1&#62; - &#60;h6&#62;</code></h2>
+          <p class="flex-text">
+            The <code>&#60;h1&#62; - &#60;h6&#62;</code> elements represent six
+            levels of section headings. &#60;h1&#62; is the highest section
+            level and &#60;h6&#62; is the lowest.
+          </p>
+          <div class="flex-container">
+            <div class="code-container cont-pad shadow">
+              <p class="badge">html code</p>
+              <code>
+                &#60;h1&#62;This is heading 1&#60;/h1&#62;<br /><br />
+                &#60;h2&#62;This is heading 2&#60;/h2&#62;<br /><br />
+                &#60;h3&#62;This is heading 3&#60;/h3&#62;<br /><br />
+                &#60;h4&#62;This is heading 4&#60;/h4&#62;<br /><br />
+                &#60;h5&#62;This is heading 5&#60;/h5&#62;<br /><br />
+                &#60;h6&#62;This is heading 6&#60;/h6&#62;</code
+              >
+            </div>
+            <div class="example-container cont-pad shadow">
+              <p class="badge">browser example</p>
+              <h1>This is heading 1</h1>
+              <h2>This is heading 2</h2>
+              <h3>This is heading 3</h3>
+              <h4>This is heading 4</h4>
+              <h5>This is heading 5</h5>
+              <h6>This is heading 6</h6>
+            </div>
+          </div>
+        </div>
+        <!-- end of element container -->
+      </div>
+    </div>
+    <!-- end of block elements -->
 
-    
+    <div>
+      <h1>Inline Elements</h1>
+    </div>
+    <!-- end of inline elements -->
   </body>
 </html>
