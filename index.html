@@ -1,232 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="style.css" />
-    <title>HTML Scrapbook</title>
-  </head>
-  <body>
-    <div>
-      <h1 class="header">&#128214; HTML Scrapbook</h1>
-      <p>
-        A collection of <code>&#60; html elements &#62;</code> with examples and
-        descriptions from
-        <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element"
-          >MDN Web Docs</a
-        >
-        and
-        <a href="https://www.w3schools.com/html/html_blocks.asp">W3 Schools</a>
-      </p>
-      <h1>Block Elements</h1>
-      <div class="cards">
-        <!-- start of element container -->
-        <div class="card shadow">
-          <h2 class="flex-text"><code>&#60;address&#62;</code></h2>
-          <p class="flex-text">
-            The <code>&#60;address&#62;</code> element indicates that the
-            enclosed HTML provides contact information for a person or people,
-            or for an organization.
-          </p>
-          <div class="flex-container">
-            <div class="code-container cont-pad shadow">
-              <p class="badge">html code</p>
-              <code>
-                &#60;address&#62;<br />
-                Jerry Smith&#60;br&#62;<br />
-                Washington,&#60;br&#62;<br />
-                USA,&#60;br&#62;<br />
-                Earth<br />
-                &#60;/address&#62;</code
-              >
-            </div>
-            <div class="example-container cont-pad shadow">
-              <p class="badge">browser example</p>
-              <address>
-                Jerry Smith<br />
-                Washington,<br />
-                USA,<br />
-                Earth
-              </address>
-            </div>
-          </div>
-        </div>
-        <!-- end of element container -->
-        <!-- start of element container -->
-        <div class="card shadow">
-          <h2 class="flex-text"><code>&#60;article&#62;</code></h2>
-          <p class="flex-text">
-            The <code>&#60;article&#62;</code> element represents a
-            self-contained composition in a document, page, application, or
-            site, which is intended to be independently distributable or
-            reusable (e.g., in syndication).
-          </p>
-          <div class="flex-container">
-            <div class="code-container cont-pad shadow">
-              <p class="badge">html code</p>
-              <code>
-                &#60;article&#62;<br />
-                &#60;h2&#62;Jerry Smith&#60;/h2&#62;<br />
-                &#60;p&#62;Jerry is the husband of Beth Smith, the father of
-                Summer Smith and Morty Smith, and the son-in-law of Rick Sanchez
-                and Diane Sanchez&#60;/p&#62;<br />&#60;/article&#62;</code
-              >
-            </div>
-            <div class="example-container cont-pad shadow">
-              <p class="badge">browser example</p>
-              <article>
-                <h2>Jerry Smith</h2>
-                <p>
-                  Jerry is the husband of Beth Smith, the father of Summer Smith
-                  and Morty Smith, and the son-in-law of Rick Sanchez and Diane
-                  Sanchez
-                </p>
-              </article>
-            </div>
-          </div>
-        </div>
-        <!-- end of element container -->
-        <!-- start of element container -->
-        <div class="card shadow">
-          <h2 class="flex-text"><code>&#60;aside&#62;</code></h2>
-          <p class="flex-text">
-            The <code>&#60;aside&#62;</code> element represents a portion of a
-            document whose content is only indirectly related to the document's
-            main content.
-          </p>
-          <div class="flex-container">
-            <div class="code-container cont-pad shadow">
-              <p class="badge">html code</p>
-              <code>
-                &#60;aside&#62; <br />&#60;h3&#62;Gas Giant&#60;/h3&#62;<br />
-                &#60;p&#62;Jupiter is twice as large as all the other planets
-                combined.&#60;/p&#62;<br />&#60;/aside&#62;</code
-              >
-            </div>
-            <div class="example-container cont-pad shadow">
-              <p class="badge">browser example</p>
-              <aside>
-                <h3>Gas Giant</h3>
-                <p>
-                  Jupiter is twice as large as all the other planets combined.
-                </p>
-              </aside>
-            </div>
-          </div>
-        </div>
-        <!-- end of element container -->
-        <!-- start of element container -->
-        <div class="card shadow">
-          <h2 class="flex-text"><code>&#60;blockquote&#62;</code></h2>
-          <p class="flex-text">
-            The <code>&#60;blockquote&#62;</code> element indicates that the
-            enclosed text is an extended quotation. Usually, this is rendered
-            visually by indentation . A URL for the source of the quotation may
-            be given using the cite attribute, while a text representation of
-            the source can be given using the cite element.
-          </p>
-          <div class="flex-container">
-            <div class="code-container cont-pad shadow">
-              <p class="badge">html code</p>
-              <code>
-                &#60;blockquote
-                cite="https://rickandmorty.fandom.com/wiki/Jerry_Smith"&#62;<br />
-                Jerry has scruffy, dirty brown hair, with slight curls. He has
-                dimples and wears a dark green shirt, with a brown and beige
-                stripe in the middle. He also wears light blue long pants and
-                black shoes.<br />
-                &#60;/blockquote&#62;</code
-              >
-            </div>
-            <div class="example-container cont-pad shadow">
-              <p class="badge">browser example</p>
-              <blockquote
-                cite="https://rickandmorty.fandom.com/wiki/Jerry_Smith"
-              >
-                Jerry has scruffy, dirty brown hair, with slight curls. He has
-                dimples and wears a dark green shirt, with a brown and beige
-                stripe in the middle. He also wears light blue long pants and
-                black shoes.
-              </blockquote>
-            </div>
-          </div>
-        </div>
-        <!-- end of element container -->
-        <!-- start of element container -->
-        <div class="card shadow">
-          <h2 class="flex-text"><code>&#60;form&#62;</code></h2>
-          <p class="flex-text">
-            The <code>&#60;form&#62;</code> tag is used to create an HTML form
-            for user input.
-          </p>
-          <div class="flex-container">
-            <div class="code-container cont-pad shadow">
-              <p class="badge">html code</p>
-              <code>
-                &#60;form action="#" method="get"&#62;<br />
-                &#60;label for="fname"&#62;First name:&#60;/label&#62;<br />
-                &#60;input type="text" id="fname"
-                name="fname"&#62;&#60;br&#62;&#60;br&#62;<br />
-                &#60;label for="lname"&#62;Last name:&#60;/label&#62;<br />
-                &#60;input type="text" id="lname"
-                name="lname"&#62;&#60;br&#62;&#60;br&#62;<br />
-                &#60;input type="submit" value="Submit"&#62;<br />
-                &#60;/form&#62;</code
-              >
-            </div>
-            <div class="example-container cont-pad shadow">
-              <p class="badge">browser example</p>
-              <form action="#" method="get">
-                <label for="fname">First name:</label>
-                <input type="text" id="fname" name="fname" /><br /><br />
-                <label for="lname">Last name:</label>
-                <input type="text" id="lname" name="lname" /><br /><br />
-                <input type="submit" value="Submit" />
-              </form>
-            </div>
-          </div>
-        </div>
-        <!-- end of element container -->
-        <!-- start of element container -->
-        <div class="card shadow">
-          <h2 class="flex-text"><code>&#60;h1&#62; - &#60;h6&#62;</code></h2>
-          <p class="flex-text">
-            The <code>&#60;h1&#62; - &#60;h6&#62;</code> elements represent six
-            levels of section headings. &#60;h1&#62; is the highest section
-            level and &#60;h6&#62; is the lowest.
-          </p>
-          <div class="flex-container">
-            <div class="code-container cont-pad shadow">
-              <p class="badge">html code</p>
-              <code>
-                &#60;h1&#62;This is heading 1&#60;/h1&#62;<br /><br />
-                &#60;h2&#62;This is heading 2&#60;/h2&#62;<br /><br />
-                &#60;h3&#62;This is heading 3&#60;/h3&#62;<br /><br />
-                &#60;h4&#62;This is heading 4&#60;/h4&#62;<br /><br />
-                &#60;h5&#62;This is heading 5&#60;/h5&#62;<br /><br />
-                &#60;h6&#62;This is heading 6&#60;/h6&#62;</code
-              >
-            </div>
-            <div class="example-container cont-pad shadow">
-              <p class="badge">browser example</p>
-              <h1>This is heading 1</h1>
-              <h2>This is heading 2</h2>
-              <h3>This is heading 3</h3>
-              <h4>This is heading 4</h4>
-              <h5>This is heading 5</h5>
-              <h6>This is heading 6</h6>
-            </div>
-          </div>
-        </div>
-        <!-- end of element container -->
-      </div>
-    </div>
-    <!-- end of block elements -->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>HTML Scrapbook</title>
+</head>
 
-    <div>
-      <h1>Inline Elements</h1>
-    </div>
-    <!-- end of inline elements -->
-  </body>
+<body>
+  <div>
+    <h1>&#128214; HTML Scrapbook</h1>
+    <p>
+      A collection of <code>&#60; html elements &#62;</code> with examples and
+      descriptions from
+      <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">MDN Web Docs</a>
+      and
+      <a href="https://www.w3schools.com/html/html_blocks.asp">W3 Schools</a>
+    </p>
+    <h1>Block Elements</h1>
+    <section class="cards">
+
+      <article class="card">
+        <h2><code>&#60;address&#62;</code></h2>
+        <p class="card-content">The <code>&#60;address&#62;</code> element indicates that the
+          enclosed HTML provides contact information for a person or people,
+          or for an organization.</p>
+          <div class="card-content last-row">
+            <a class="badge" href="#example-address"> show example</a>
+          </div>
+      </article><!-- /address-->
+
+      <article class="card">
+        <h2><code>&#60;article&#62;</code></h2>
+        <p class="card-content">The <code>&#60;article&#62;</code> element represents a
+          self-contained composition in a document, page, application, or
+          site, which is intended to be independently distributable or
+          reusable (e.g., in syndication).</p>
+          <div class="card-content last-row">
+            <a class="badge" href="#example-article"> show example</a>
+          </div>
+      </article><!-- /article -->
+
+      <article class="card">
+        <h2><code>&#60;aside&#62;</code></h2>
+        <p class="card-content">The <code>&#60;aside&#62;</code> element represents a portion of a
+          document whose content is only indirectly related to the document's
+          main content.</p>
+          <div class="card-content last-row">
+            <a class="badge" href="#example-aside"> show example</a>
+          </div>
+      </article><!-- /aside -->
+
+      <article class="card">
+        <h2><code>&#60;blockquote&#62;</code></h2>
+        <p class="card-content">The <code>&#60;blockquote&#62;</code> element indicates that the
+          enclosed text is an extended quotation. Usually, this is rendered
+          visually by indentation . A URL for the source of the quotation may
+          be given using the cite attribute, while a text representation of
+          the source can be given using the cite element.</p>
+          <div class="card-content last-row">
+            <a class="badge" href="#example-blockquote"> show example</a>
+          </div>
+      </article><!-- /blockquote -->
+
+      <article class="card">
+        <h2><code>&#60;form&#62;</code></h2>
+        <p class="card-content">The <code>&#60;form&#62;</code> tag is used to create an HTML form
+          for user input.</p>
+          <div class="card-content last-row">
+            <a class="badge" href="#example-form"> show example</a>
+          </div>
+      </article><!-- /form -->
+
+      <article class="card">
+        <h2><code>&#60;h1&#62; - &#60;h6&#62;</code></h2>
+        <p class="card-content">The <code>&#60;h1&#62; to &#60;h6&#62;</code> elements represent six
+          levels of section headings. &#60;h1&#62; is the highest section
+          level and &#60;h6&#62; is the lowest.</p>
+          <div class="card-content last-row">
+            <a class="badge" href="#example-h"> show example</a>
+          </div>
+      </article><!-- /h1 -h6 -->
+
+      <article class="card">
+        <h2><code>&#60;div&#62;</code></h2>
+        <p class="card-content">The HTML Content Division element <code>&#60;div&#62;</code> is the generic container for flow content. It has no effect on the content or layout until styled in some way using CSS (e.g. styling is directly applied to it, or some kind of layout model like Flexbox is applied to its parent element).</p>
+          <div class="card-content last-row">
+            <a class="badge" href="#example-div"> show example</a>
+          </div>
+      </article><!-- /div -->
+
+      <article class="card">
+        <h2><code>&#60;li&#62;</code></h2>
+        <p class="card-content">The <code>&#60;li&#62;</code>element is used to represent an item in a list.</p>
+          <div class="card-content last-row">
+            <a class="badge" href="#example-li"> show example</a>
+          </div>
+      </article><!-- /li -->
+
+      <article class="card">
+        <h2><code>&#60;ol&#62;</code></h2>
+        <p class="card-content">The <code>&#60;ol&#62;</code>element represents an ordered list of items — typically rendered as a numbered list.</p>
+          <div class="card-content last-row">
+            <a class="badge" href="#example-ol"> show example</a>
+          </div>
+      </article><!-- /ol -->
+
+      <article class="card">
+        <h2><code>&#60;ul&#62;</code></h2>
+        <p class="card-content">The <code>&#60;ul&#62;</code>element represents an unordered list of items, typically rendered as a bulleted list.</p>
+          <div class="card-content last-row">
+            <a class="badge" href="#example-ul"> show example</a>
+          </div>
+      </article><!-- /ul -->
+    </section>
+  </div>
+</body>
+
 </html>
