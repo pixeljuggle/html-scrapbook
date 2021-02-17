@@ -426,6 +426,76 @@
       <div style="height: 50px;"></div>
       </article>
 
+      <article id="example-img"></article> <!-- img -->
+      <span class="dark-highlight"><code>&#60;img&#62;</code></span>
+      <div style="height: 20px;"></div>
+      <p>The <code>&#60;img&#62;</code> element embeds an image into the document.</p>
+      <br>
+      <section class="card" style="padding:40px;">
+        <img src="https://cataas.com/cat" alt="A picture of a cat" width="300">
+        <!-- code area -->
+        <textarea readonly="readonly" style="margin-top:30px; padding-top:20px;">
+          <img src="https://cataas.com/cat" alt="A picture of a cat" width="300">
+        </textarea><!-- /code area -->
+      </section>
+      <div style="height: 50px;"></div>
+      </article>
+
+      <article id="example-video"></article> <!-- video -->
+      <span class="dark-highlight"><code>&#60;video&#62;</code></span>
+      <div style="height: 20px;"></div>
+      <p>The <code>&#60;video&#62;</code> element embeds a media player which supports video
+        playback into the document. You can use <code>&#60;video&#62;</code> for audio content as well, but the audio
+        element may provide a more appropriate user experience.</p>
+      <br>
+      <section class="card" style="padding:40px;">
+        <video width="300" controls poster="http://placekitten.com/400/260">
+          <source src="https://ir.stonybrook.edu/xmlui/bitstream/handle/11401/9656/rickroll.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <!-- code area -->
+        <textarea readonly="readonly" style="margin-top:30px; padding-top:20px;">
+          <video width="300" controls poster="http://placekitten.com/400/260">
+            <source src="https://ir.stonybrook.edu/xmlui/bitstream/handle/11401/9656/funny-cat.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </textarea><!-- /code area -->
+      </section>
+      <div style="height: 50px;"></div>
+      </article>
+
+      <article id="example-form"></article> <!-- form -->
+      <span class="dark-highlight"><code>&#60;form&#62;</code></span>
+      <div style="height: 20px;"></div>
+      <p>The <code>&#60;form&#62;</code> tag is used to create an HTML form
+        for user input.</p>
+      <br>
+      <section class="card" style="padding:40px;">
+        <form action="/action_page.php" method="get">
+          <label for="fname">First name:</label>
+          <input type="text" id="fname" name="fname"><br><br>
+          <label for="lname">Last name:</label>
+          <input type="text" id="lname" name="lname"><br><br>
+          <label for="cnumber">Credit Card Number:</label>
+          <input type="text" id="cnumber" name="cnumber"><br><br>
+          <input type="submit" value="Submit">
+        </form>
+        <!-- code area -->
+        <textarea readonly="readonly" style="margin-top:30px; padding-top:20px;">
+          <form action="/action_page.php" method="get">
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname"><br><br>
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname"><br><br>
+            <label for="cnumber">Credit Card Number:</label>
+            <input type="text" id="cnumber" name="cnumber"><br><br>
+            <input type="submit" value="Submit">
+          </form>
+        </textarea><!-- /code area -->
+      </section>
+      <div style="height: 50px;"></div>
+      </article>
+
     </section><!-- /examples -->
   </div>
 </body>
